@@ -11,7 +11,11 @@
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
+  "order-placed":{
+    "props":{
 
+    }
+  },
   "store.account": {
     "blocks": ["my-account"],
     "parent": {
@@ -36,7 +40,7 @@
       "product-summary-add-to-list-button",
       "stack-layout#prodsum",
       "product-summary-name",
-      "product-rating-inline",
+      // "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
       "product-identifier.summary",
@@ -58,9 +62,9 @@
       "visibleWhen": "True",
       "displayValue": "SPECIFICATION_NAME"
     }
-  },
-
-  "store.product-review-form": {
-    "blocks": ["product-review-form"]
   }
+
+  // "store.product-review-form": {
+  //   "blocks": ["product-review-form"]
+  // }
 }

@@ -3,7 +3,7 @@
   "name": "store-theme-treinamento",
   "version": "0.0.1",
   "builders": {
-    "styles": "1.x",
+    "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x"
   },
@@ -38,7 +38,8 @@
     "vtex.sticky-layout": "0.x",
     "vtex.product-customizer": "2.x",
     "vtex.stack-layout": "0.x",
-    "vtex.product-specification-badges": "0.x"
+    "vtex.product-specification-badges": "0.x",
+    "vtex.order-placed": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
