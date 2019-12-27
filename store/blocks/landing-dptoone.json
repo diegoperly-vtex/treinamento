@@ -1,0 +1,31 @@
+{
+  "store.custom#landing-dptoone": {
+    "blocks": [
+      "flex-layout.row#landing-dptoone"
+    ]
+  },
+
+  "flex-layout.row#landing-dptoone": {
+    "children": [
+      "flex-layout.col#landing-dptoone"
+    ]
+  },
+
+  "flex-layout.col#landing-dptoone": {
+    "children": [
+      "rich-text#landing-dptoone"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#landing-dptoone": {
+    "props": {
+      "text":
+      "# Create meaningful and relevant experiences.",
+      "blockClass": "title"
+    }
+  }
+}
