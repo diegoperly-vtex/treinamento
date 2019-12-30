@@ -95,15 +95,650 @@
   },
   "flex-layout.col#content": {
     "children": [
+      "flex-layout.row#banners-dpt-principal",
+      "rich-text#title-one",
+      "flex-layout.row#dpt-banners-one",
+      "flex-layout.row#dpt-banners-two",
+      "flex-layout.row#dpt-banners-three",
+      "flex-layout.row#dpt-banners-four",
+      "rich-text#title-two",
+      "flex-layout.row#theme-banners-one",
+      "flex-layout.row#theme-banners-two",
+      "flex-layout.row#theme-banners-three",
+      "flex-layout.row#theme-banners-four",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#banners-text-bottom"
     ],
     "props": {
       "width": "grow"
     }
   },
+  "flex-layout.row#banners-dpt-principal":{
+    "children": ["flex-layout.col#banner-dpt-principal"]
+  },
+  "flex-layout.col#banner-dpt-principal":{
+    "children": ["info-card#banner-dpt-principal"]
+  },
+  "info-card#banner-dpt-principal":{
+    "props": {
+      "id": "banner-dpt-principal",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpt-principal",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#title-one": {
+    "props": {
+      "text": "**Subcategories**"
+    }
+  },
+  "flex-layout.row#dpt-banners-one":{
+    "children": [
+      "info-card#banner-dpt-one",
+      "info-card#banner-dpt-two",
+      "info-card#banner-dpt-three",
+      "info-card#banner-dpt-four",
+      "info-card#banner-dpt-five"
+    ]
+  },
+  "flex-layout.row#dpt-banners-two":{
+    "children": [
+      "info-card#banner-dpt-six",
+      "info-card#banner-dpt-seven",
+      "info-card#banner-dpt-eight",
+      "info-card#banner-dpt-nine",
+      "info-card#banner-dpt-ten"
+    ]
+  },
+  "flex-layout.row#dpt-banners-three":{
+    "children": [
+      "info-card#banner-dpt-eleven",
+      "info-card#banner-dpt-twelve",
+      "info-card#banner-dpt-thirteen",
+      "info-card#banner-dpt-fourteen",
+      "info-card#banner-dpt-fifteen"
+    ]
+  },
+  "flex-layout.row#dpt-banners-four":{
+    "children": [
+      "info-card#banner-dpt-sixteen",
+      "info-card#banner-dpt-seventeen",
+      "info-card#banner-dpt-eighteen",
+      "info-card#banner-dpt-nineteen",
+      "info-card#banner-dpt-twenty"
+    ]
+  },
+  "info-card#banner-dpt-one": {
+    "props": {
+      "id": "banner-dpt-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-two": {
+    "props": {
+      "id": "banner-dpt-two",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-three": {
+    "props": {
+      "id": "banner-dpt-three",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-four": {
+    "props": {
+      "id": "banner-dpt-four",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-five": {
+    "props": {
+      "id": "banner-dpt-five",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-six": {
+    "props": {
+      "id": "banner-dpt-six",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-seven": {
+    "props": {
+      "id": "banner-dpt-seven",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-eight": {
+    "props": {
+      "id": "banner-dpt-eight",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-nine": {
+    "props": {
+      "id": "banner-dpt-nine",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-ten": {
+    "props": {
+      "id": "banner-dpt-ten",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-eleven": {
+    "props": {
+      "id": "banner-dpt-eleven",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-twelve": {
+    "props": {
+      "id": "banner-dpt-twelve",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-thirteen": {
+    "props": {
+      "id": "banner-dpt-thirteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-fourteen": {
+    "props": {
+      "id": "banner-dpt-fourteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-fifteen": {
+    "props": {
+      "id": "banner-dpt-fifteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-sixteen": {
+    "props": {
+      "id": "banner-dpt-sixteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-seventeen": {
+    "props": {
+      "id": "banner-dpt-seventeen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-eighteen": {
+    "props": {
+      "id": "banner-dpt-eighteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-nineteen": {
+    "props": {
+      "id": "banner-dpt-nineteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-dpt-twenty": {
+    "props": {
+      "id": "banner-dpt-twenty",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+
+  "rich-text#title-two": {
+    "props": {
+      "text": "**Themes**"
+    }
+  },
+  "flex-layout.row#theme-banners-one":{
+    "children": [
+      "info-card#banner-theme-one",
+      "info-card#banner-theme-two",
+      "info-card#banner-theme-three",
+      "info-card#banner-theme-four",
+      "info-card#banner-theme-five"
+    ]
+  },
+  "flex-layout.row#theme-banners-two":{
+    "children": [
+      "info-card#banner-theme-six",
+      "info-card#banner-theme-seven",
+      "info-card#banner-theme-eight",
+      "info-card#banner-theme-nine",
+      "info-card#banner-theme-ten"
+    ]
+  },
+  "flex-layout.row#theme-banners-three":{
+    "children": [
+      "info-card#banner-theme-eleven",
+      "info-card#banner-theme-twelve",
+      "info-card#banner-theme-thirteen",
+      "info-card#banner-theme-fourteen",
+      "info-card#banner-theme-fifteen"
+    ]
+  },
+  "flex-layout.row#theme-banners-four":{
+    "children": [
+      "info-card#banner-theme-sixteen",
+      "info-card#banner-theme-seventeen",
+      "info-card#banner-theme-eighteen",
+      "info-card#banner-theme-nineteen",
+      "info-card#banner-theme-twenty"
+    ]
+  },
+  "info-card#banner-theme-one": {
+    "props": {
+      "id": "banner-theme-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-two": {
+    "props": {
+      "id": "banner-theme-two",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-three": {
+    "props": {
+      "id": "banner-theme-three",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-four": {
+    "props": {
+      "id": "banner-theme-four",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-five": {
+    "props": {
+      "id": "banner-theme-five",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-six": {
+    "props": {
+      "id": "banner-theme-six",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-seven": {
+    "props": {
+      "id": "banner-theme-seven",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-eight": {
+    "props": {
+      "id": "banner-theme-eight",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-nine": {
+    "props": {
+      "id": "banner-theme-nine",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-ten": {
+    "props": {
+      "id": "banner-theme-ten",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-eleven": {
+    "props": {
+      "id": "banner-theme-eleven",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-twelve": {
+    "props": {
+      "id": "banner-theme-twelve",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-thirteen": {
+    "props": {
+      "id": "banner-theme-thirteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-fourteen": {
+    "props": {
+      "id": "banner-theme-fourteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-fifteen": {
+    "props": {
+      "id": "banner-theme-fifteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-sixteen": {
+    "props": {
+      "id": "banner-theme-sixteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-seventeen": {
+    "props": {
+      "id": "banner-theme-seventeen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-eighteen": {
+    "props": {
+      "id": "banner-theme-eighteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-nineteen": {
+    "props": {
+      "id": "banner-theme-nineteen",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#banner-theme-twenty": {
+    "props": {
+      "id": "banner-theme-twenty",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "banner-dpto",
+      "textAlignment": "center"
+    }
+  },
+
   "flex-layout.row#searchinfo": {
     "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"]
   },
@@ -136,6 +771,25 @@
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
+  },
+  "flex-layout.row#banners-text-bottom":{
+    "children": ["flex-layout.col#text-bottom-one", "flex-layout.col#text-bottom-two"]
+  },
+  "flex-layout.col#text-bottom-one":{
+    "children": ["rich-text#tex-bottom-one"]
+  },
+  "flex-layout.col#text-bottom-two":{
+    "children": ["rich-text#tex-bottom-two"]
+  },
+  "rich-text#tex-bottom-one":{
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  },
+  "rich-text#tex-bottom-two":{
+    "props": {
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
   },
 
   "search-result-layout.mobile": {
